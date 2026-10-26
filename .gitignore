@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# Streamlit secrets
+**/.streamlit/secrets.toml
+
+# Additional environment files
+.env.*
+!.env.example
+
+# Testing cache
+.pytest_cache/
